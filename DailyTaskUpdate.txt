@@ -1,0 +1,45 @@
+Friday (01/04/2022)
+--------------------------------------
+1.project Setup.
+2.create folder Structure.
+3.Create component Like Admin,User and their scss file also.
+4.Make Ui for both.
+5.Make Router for both.
+6.create Redux folder structure for our app.
+7.impliment Redux code with Saga Middleware.
+8.Create Seprate api folder Structure
+9.Cheack work-flow using by fake api.
+10.Apply React-Hook form on UI.
+11.Validate Some Field on UI.
+
+
+
+
+Monday (04/04/2022)
+---------------------------------------
+1.create Role component with jsx and scss file.
+2.impliment Role component with UI.
+3.create Router for Role page.
+4.create Redux file for Role page such as-roleReducer,rolesagaAction etc.
+5.call fake api for checking purpose.
+6.Modify UI as per client Requirement.
+7.Remove GroupId and Password Field form Role Table.
+8.add Status on last in Form Field.
+9.create Action component and create two file.
+10.implement it with Code 
+
+
+
+
+Tuesday (05/04/2022)
+--------------------------------------
+1.Add Tabber on Front-page.
+2.create Business Entity component with jsx and scss file.
+3.create Accordian for Business.
+4.implement item on Accordian.
+5.create Business Entity Form
+6.create Email Entity list form.
+7.create Calculation form.
+8.create Tax form.
+9.create Tax Documentation Form.
+ 

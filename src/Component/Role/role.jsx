@@ -37,7 +37,9 @@ const Role = () =>{
                     <Row>
                         <Col md={12}>
                             <div className='admin-section'>
+                                <div className="admin-header">
                                 <h2 className='admin-title'>Role Table</h2>
+                                </div>
                                 <div className='table-responsive'>
                                     <Table striped hover>
                                         <thead>
@@ -126,19 +128,18 @@ const Role = () =>{
                                                 </td>
                                             </tr> */}
                                         </tbody>
-                                    </Table>
-                                    <Col md={12}>
+                                    </Table>                                  
+                                </div>
+                                <Col md={12}>
                                         <Form.Group className="table-actions">
-                                            <Button type="submit" className='btn-blue'>
+                                            <Button type="submit" className='admin-page-btn'>
                                                 Add More
                                                 <BsPlusLg className='icon' />
                                             </Button>
                                         </Form.Group>
                                     </Col>
-                                </div>
-                                <hr />
                             </div>
-                            <div className='admin-section'>
+                            <div className='admin-section admin-section-page'>
                                 <h2 className='admin-title'>Role Form</h2>
                                 <Form className="admin-form-ui" onSubmit={handleSubmit(onSubmit)}>
                                     <Row>
@@ -201,6 +202,7 @@ const Role = () =>{
                                         <Col md={4}>
                                             <Form.Group className="mb-4" {...register("status")}>
                                                 <Form.Label>Status</Form.Label>
+                                                <div className="status-check">
                                                 <Form.Check
                                                     inline
                                                     label="Active"
@@ -215,16 +217,16 @@ const Role = () =>{
                                                     type="radio"
                                                     id='2'
                                                 />
+                                                </div>
                                             </Form.Group>
                                         </Col>
                                         <Col md={12}>
                                             <Form.Group className="form-actions">
-                                                <Button type="submit" className='btn-blue'>Submit</Button>
+                                                <Button type="submit" className='admin-page-btn'>Submit</Button>
                                             </Form.Group>
                                         </Col>
                                     </Row>
-                                </Form>
-                                <hr />
+                                </Form>                                
                             </div>
                         </Col>
                     </Row>

@@ -124,17 +124,16 @@ const Action = () =>{
                                                 </td>
                                             </tr> */}
                                         </tbody>
-                                    </Table>
-                                    <Col md={12}>
+                                    </Table>                                   
+                                </div>
+                                <Col md={12}>
                                         <Form.Group className="table-actions">
-                                            <Button type="submit" className='btn-blue'>
+                                            <Button type="submit" className='admin-page-btn'>
                                                 Add More
                                                 <BsPlusLg className='icon' />
                                             </Button>
                                         </Form.Group>
-                                    </Col>
-                                </div>
-                                <hr />
+                                    </Col>                                
                             </div>
                             <div className='admin-section'>
                                 <h2 className='admin-title'>Action Form</h2>
@@ -211,6 +210,7 @@ const Action = () =>{
                                         <Col md={4}>
                                             <Form.Group className="mb-4" {...register("status")}>
                                                 <Form.Label>Status</Form.Label>
+                                                <div className="status-check">
                                                 <Form.Check
                                                     inline
                                                     label="Active"
@@ -225,16 +225,16 @@ const Action = () =>{
                                                     type="radio"
                                                     id='2'
                                                 />
+                                                </div>
                                             </Form.Group>
                                         </Col>
                                         <Col md={12}>
                                             <Form.Group className="form-actions">
-                                                <Button type="submit" className='btn-blue'>Submit</Button>
+                                                <Button type="submit" className='admin-page-btn'>Submit</Button>
                                             </Form.Group>
                                         </Col>
                                     </Row>
-                                </Form>
-                                <hr />
+                                </Form>                                
                             </div>
                         </Col>
                     </Row>

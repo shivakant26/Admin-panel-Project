@@ -127,6 +127,7 @@ const BusinessEntity = () => {
                                     <Col md={4}>
                                         <Form.Group className="mb-4" {...register("status")}>
                                             <Form.Label>Status</Form.Label>
+                                            <div className="status-check">
                                             <Form.Check
                                                 inline
                                                 label="Active"
@@ -141,11 +142,12 @@ const BusinessEntity = () => {
                                                 type="radio"
                                                 id='2'
                                             />
+                                            </div>
                                         </Form.Group>
                                     </Col>
                                     <Col md={12}>
                                         <Form.Group className="form-actions">
-                                            <Button type="submit" className='btn-blue'>Submit</Button>
+                                            <Button type="submit" className='admin-page-btn'>Submit</Button>
                                         </Form.Group>
                                     </Col>
                                 </Row>
@@ -206,6 +208,7 @@ const BusinessEntity = () => {
                                     <Col md={4}>
                                         <Form.Group className="mb-4" {...register("status")}>
                                             <Form.Label>Status</Form.Label>
+                                            <div className="status-check">
                                             <Form.Check
                                                 inline
                                                 label="Active"
@@ -220,11 +223,12 @@ const BusinessEntity = () => {
                                                 type="radio"
                                                 id='2'
                                             />
+                                            </div>
                                         </Form.Group>
                                     </Col>
                                     <Col md={12}>
                                         <Form.Group className="form-actions">
-                                            <Button type="submit" className='btn-blue'>Submit</Button>
+                                            <Button type="submit" className='admin-page-btn'>Submit</Button>
                                         </Form.Group>
                                     </Col>
                                 </Row>
@@ -250,7 +254,7 @@ const BusinessEntity = () => {
                                 </Dropdown>
                             </Col>
                             <Col md={4}>
-                                <Dropdown>
+                                <Dropdown >
                                     <Dropdown.Toggle id="dropdown-basic">
                                         field2Type
                                     </Dropdown.Toggle>
@@ -268,8 +272,8 @@ const BusinessEntity = () => {
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="#/action-1">field3Name</Dropdown.Item>
-                                        <Dropdown.Item href="#/action-2">operation3_4</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-1">true</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">false</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </Col>
@@ -356,7 +360,7 @@ const BusinessEntity = () => {
                                     </Col>
                                     <Col md={12}>
                                         <Form.Group className="form-actions">
-                                            <Button type="submit" className='btn-blue'>Submit</Button>
+                                            <Button type="submit" className='admin-page-btn'>Submit</Button>
                                         </Form.Group>
                                     </Col>
                                 </Row>
@@ -404,7 +408,7 @@ const BusinessEntity = () => {
                                     </Col>
                                     <Col md={12}>
                                         <Form.Group className="form-actions">
-                                            <Button type="submit" className='btn-blue'>Submit</Button>
+                                            <Button type="submit" className='admin-page-btn'>Submit</Button>
                                         </Form.Group>
                                     </Col>
                                 </Row>
